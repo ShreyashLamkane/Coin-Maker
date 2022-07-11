@@ -187,21 +187,7 @@ class Pound(Coin):
         super().__init__(self.rare, self.clean, **data)
 
 
-# coin1 = Pound(rare=True)
-# coin2 = Pound(clean=False)
-# coin3=five_pence()
-# print(coin3.color)
-# coin3.rust()
-# print(coin3.color)
-#
-# print(coin1.value)
-# print(coin2.color)
-# coin2.rust()
-# coin1.flip()
-# print(coin1.heads)
-# print(coin2.color)
-#
-# print(coin1.value)
+
 coins=[One_pence(), Two_pence(), Five_pence(), Ten_pence(), Twenty_pence(), Fifty_pence(), Pound(), Two_pound()]
 for coin in coins:
     arguments=[coin,  coin.value,coin.color, coin.diameter, coin.thickness, coin.mass, coin.num_edges]
